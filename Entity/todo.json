@@ -1,0 +1,13 @@
+{
+    "name": "todoORM",
+    "columns":{
+        "id":{
+            "primary": true,
+            "type":"int",
+            "generated": true
+        },
+        "title":{
+            "type": "varchar"
+        }
+    }
+}
